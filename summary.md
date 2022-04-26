@@ -16,3 +16,19 @@ The memory is dynamically assigned. All the nodes are linked with pointer.
 There is no problem with sizing, because the list grow as per the programs demand.
 
 # Singly linked list or One way chain
+
+In Singly linked list has a node which contains 2 parts: The Data part and the link part.
+In Singly linked list the direction is only forward.
+
+# Operations on Singly Linked List
+
+```c
+struct node // Declaration of Node
+{  
+    int data; // Data Type
+    struct node *next; // Address of next node
+};  
+struct node *head, *ptr;   // Declaration of head
+ptr = (struct node *)malloc(sizeof(struct node *));  // Allocate memory
+
+```
