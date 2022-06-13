@@ -22,6 +22,8 @@ In Singly linked list the direction is only forward.
 
 # Operations on Singly Linked List
 
+
+### Node Creation
 ```c
 struct node // Declaration of Node
 {  
@@ -32,3 +34,16 @@ struct node *head, *ptr;   // Declaration of head
 ptr = (struct node *)malloc(sizeof(struct node *));  // Allocate memory
 
 ```
+
+### Insertion
+
+1. Insertion at the beginnig
+2. Insertion at end of the list
+3. Insertion after specified node
+
+### Deletion and Traversing
+1. Deletion at beginning
+2. Deletion at the end of the list
+3. Deletion after specified node
+4. Traversing
+5. Searching
